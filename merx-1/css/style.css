@@ -656,12 +656,11 @@ input::-webkit-input-placeholder {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	max-height: 770px;
-	height: 100vw;
+	max-height: 520px;
+	height: 70vw;
+	margin: 5% 0 0 0;
 }
 .photos-gallery-item {
-	background-image: url(../img/neapolis.jpg);
-	background-size: cover;
 	width: 21%;
 	max-height: 210px;
 	height: 21vw;
@@ -676,6 +675,11 @@ input::-webkit-input-placeholder {
 	padding: 10px;
 	text-decoration: none;
 	color: #fff;
+}
+.rukovoditel {
+	background: url(../img/rukovoditel.jpg) 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .photos-gallery-item:hover {
 	-webkit-box-shadow: 0 0 10px #000000;
