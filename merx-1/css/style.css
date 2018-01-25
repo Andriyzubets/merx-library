@@ -659,6 +659,7 @@ input::-webkit-input-placeholder {
 	max-height: 520px;
 	height: 70vw;
 	margin: 5% 0 0 0;
+
 }
 .photos-gallery-item {
 	width: 21%;
@@ -675,9 +676,45 @@ input::-webkit-input-placeholder {
 	padding: 10px;
 	text-decoration: none;
 	color: #fff;
+	text-shadow: 0 0 10px #000;
 }
 .rukovoditel {
 	background: url(../img/rukovoditel.jpg) 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.personal {
+	background: url(../img/personal.jpg) 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.divany {
+	background: url(../img/divan.jpg) 100% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.zona-otdykh {
+	background: url(../img/launge.jpg) 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.peregovory {
+	    background: url(../img/peregovory.jpg) 50% 80% no-repeat;
+    -webkit-background-size: 170%;
+    background-size: 170%;
+}
+.stoly {
+	background: url(../img/stulya-i-kresla.jpg) 80% 90% no-repeat;
+    -webkit-background-size: 150%;
+    background-size: 150%;
+}
+.konferenc {
+	background: url(../img/konf-stol.jpg) 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.reception {
+	background: url(../img/stoyka-recepcii.jpg) 50% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }

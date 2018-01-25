@@ -275,8 +275,8 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 160%;
 }
 .hints-image:hover {
-	transform: translateX(-100px) scale(1.33);
-    transition: 0.3s;
+	transform: translateX(-350px) translateY(100px) scale(2.5);
+    transition: 1s;
 }
 .marked-text {
 	color: #d00b0b;
@@ -448,7 +448,7 @@ input::-webkit-input-placeholder {
 	font-size: 30px;
 	line-height: 30px;
 	margin-bottom: 1%;
-	color: #01070f;
+	color: #444;
 }
 .project-order {
 	text-align: center;
