@@ -226,11 +226,10 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-	overflow: overlay;
 	text-transform: uppercase;
 	flex: 1;
 }
-.card p:last-child {
+.card > p:last-child {
 	padding: 2px 5px;
 }
 .card:hover {
@@ -242,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 73%;
 }
 .last {
-	height: 71%
+	height: auto;
 }
 .card-big-text {
 	font-size: 102px;
